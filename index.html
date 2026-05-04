@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KeyMaster</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Poppins',sans-serif;background:#070b12;color:#fff}
+.container{width:92%;max-width:1280px;margin:auto}
+header{background:#090d14;border-bottom:1px solid rgba(255,255,255,0.05);position:sticky;top:0;z-index:999}
+nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+.logo{display:flex;align-items:center;gap:12px;font-weight:700}
+.logo-box{background:#f0b429;color:#000;padding:8px 12px;font-weight:800}
+.menu{display:flex;gap:35px;color:#cbd5e1}
+.right-box{display:flex;gap:20px;align-items:center}
+.quote-btn{background:#f0b429;color:#000;padding:12px 25px;font-weight:700}
+.hero{min-height:95vh;display:flex;align-items:center;background:linear-gradient(rgba(4,8,15,.75),rgba(4,8,15,.85)),url('https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1600') center/cover}
+.hero h1{font-family:'Playfair Display';font-size:90px;line-height:.95}
+.gold{color:#f0b429;font-style:italic}
+.hero p{margin-top:25px;color:#cbd5e1;max-width:650px;line-height:1.8}
+.buttons{margin-top:40px;display:flex;gap:15px}
+.btn-yellow{background:#f0b429;color:#000;padding:16px 30px;font-weight:700}
+.btn-dark{border:1px solid rgba(255,255,255,0.2);padding:16px 30px}
+.section{padding:110px 0}
+.section-title{font-family:'Playfair Display';font-size:50px;margin-bottom:15px}
+.subtitle{color:#cbd5e1;margin-bottom:40px;line-height:1.8}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px}
+.card{border:1px solid rgba(255,255,255,0.08);padding:35px;background:#070d14;min-height:260px}
+.card h3{font-family:'Playfair Display';margin:20px 0;font-size:26px}
+.card p{color:#cbd5e1;line-height:1.7}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.cta{text-align:center;background:linear-gradient(rgba(4,8,15,.75),rgba(4,8,15,.85)),url('https://images.unsplash.com/photo-1582139329536-e7284fece509?q=80&w=1600') center/cover}
+footer{background:#0a1018;padding:80px 0}
+.footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:40px}
+.footer-title{font-family:'Playfair Display';font-size:26px;margin-bottom:15px}
+.footer-text{color:#cbd5e1;line-height:1.8}
+.bottom{margin-top:40px;border-top:1px solid rgba(255,255,255,0.08);padding-top:20px;color:#94a3b8}
+@media(max-width:768px){.menu{display:none}.hero h1{font-size:50px}.split{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<header>
+<div class="container">
+<nav>
+<div class="logo"><div class="logo-box">🔑</div>KeyMaster</div>
+<div class="menu"><div>Services</div><div>Expertise</div><div>Automotive</div><div>Location</div></div>
+<div class="right-box"><div>📞 555-0198</div><a class="quote-btn">Get a Quote</a></div>
+</nav>
+</div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+<div class="container">
+<h1>Precision.<br><span class="gold">Without</span><br>compromise.</h1>
+<p>
+We do not cut corners. Whether it's the front door of your home,
+a high-security commercial lock, or modern automotive
+transponders — we do it right the first time.
+</p>
+<div class="buttons">
+<a class="btn-yellow">Request Service →</a>
+<a class="btn-dark">Emergency 24/7: 555-0198</a>
+</div>
+</div>
+</section>
+
+<!-- SERVICES -->
+<section class="section" style="background:#0a1018">
+<div class="container">
+<h2 class="section-title">Our Core Services</h2>
+<p class="subtitle">
+Specialized expertise across residential, commercial, and automotive security.
+</p>
+<div class="grid">
+<div class="card">
+<h3>Residential Security</h3>
+<p>
+Lock installation, repair,
+rekeying, and master key
+systems for your home.
+</p>
+</div>
+<div class="card">
+<h3>Automotive Transponders</h3>
+<p>
+Modern key fob programming,
+laser cutting, and ignition
+repairs.
+</p>
+</div>
+<div class="card">
+<h3>Commercial Access</h3>
+<p>
+High-security locks, access
+control, and heavy-duty
+hardware.
+</p>
+</div>
+<div class="card">
+<h3>24/7 Emergency</h3>
+<p>
+Rapid response lockouts for
+home, auto, and business when
+you need it most.
+</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- SECURITY -->
+<section class="section">
+<div class="container split">
+<div style="position:relative">
+<img src="https://images.unsplash.com/photo-1606813907291-d86efa9b94db?q=80&w=800" style="width:100%">
+<div style="position:absolute;bottom:0;left:0;background:#0a1018;padding:20px;border:1px solid rgba(255,255,255,0.1)">
+<b style="color:#f0b429;font-size:28px">30+</b><br>
+<span style="color:#cbd5e1;font-size:13px">YEARS OF MASTER CRAFTSMANSHIP</span>
+</div>
+</div>
+<div>
+<h2 class="section-title">Security is not a commodity.<br><span class="gold">It is a craft.</span></h2>
+<p class="subtitle">
+Anyone can copy a standard key. But when you need to secure what matters most,
+you don't want "anyone." You want a master locksmith.
+<br><br>
+For over three decades, we have studied the mechanics of security. We understand the tolerances of brass, the weaknesses of standard pins, and the complex software of modern transponders.
+</p>
+<ul style="line-height:2;color:#cbd5e1">
+<li>✔ Licensed, bonded, and fully insured</li>
+<li>✔ Member of the Associated Locksmiths of America</li>
+<li>✔ State-of-the-art diagnostic and cutting equipment</li>
+</ul>
+</div>
+</div>
+</section>
+
+<!-- AUTOMOTIVE -->
+<section class="section" style="background:#0a1018">
+<div class="container split">
+<div>
+<div style="color:#f0b429;margin-bottom:10px">MODERN TECHNOLOGY</div>
+<h2 class="section-title">Not just brass.<br>Advanced automotive.</h2>
+<p class="subtitle">
+Car keys aren't just metal anymore—they are computers. Dealerships charge exorbitant prices for replacement fobs and programming. We possess the same advanced diagnostic equipment, delivering dealership-quality automotive keys at a fraction of the cost.
+</p>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:15px">
+<div class="btn-dark">Laser Cut Keys</div>
+<div class="btn-dark">Transponder Programming</div>
+<div class="btn-dark">Smart Keys & Fobs</div>
+<div class="btn-dark">Ignition Cylinder Repair</div>
+</div>
+</div>
+<div>
+<img src="https://images.unsplash.com/photo-1617038260897-41a1f14a1f28?q=80&w=800" style="width:100%">
+</div>
+</div>
+</section>
+
+<!-- CTA -->
+<section class="section cta">
+<div class="container">
+<h2 class="section-title">A real shop.<br>Real people.<br><span class="gold">Real security.</span></h2>
+<p class="subtitle">
+Don't trust your security to an anonymous van. Visit our shop, see our equipment,
+and talk to the master locksmiths who will secure your home or business.
+</p>
+<div class="buttons" style="justify-content:center">
+<a class="btn-yellow">Visit The Shop</a>
+<a class="btn-dark">Call for Emergency</a>
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+<div class="container">
+<div class="footer-grid">
+<div>
+<div class="footer-title">KeyMaster</div>
+<div class="footer-text">
+Your trusted neighborhood locksmith for over three decades. Precision craftsmanship, modern technology, and unwavering reliability.
+</div>
+</div>
+<div>
+<div class="footer-title">Contact</div>
+<div class="footer-text">
+Emergency & Shop<br>
+(555) 0198-4321<br><br>
+service@keymaster.local
+</div>
+</div>
+<div>
+<div class="footer-title">Location</div>
+<div class="footer-text">
+1482 Industrial Ave.<br>
+Corner of 15th & Steel<br>
+Metro District, 90210
+</div>
+</div>
+<div>
+<div class="footer-title">Hours</div>
+<div class="footer-text">
+Mon–Fri: 8:00 AM – 6:00 PM<br>
+Saturday: 9:00 AM – 2:00 PM<br><br>
+Emergency: <span style="color:#f0b429">24/7 Available</span>
+</div>
+</div>
+</div>
+<div class="bottom">© 2026 KeyMaster Locksmith Services. All rights reserved.</div>
+</div>
+</footer>
+
+</body>
+</html>
